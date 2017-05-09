@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace HelloWorldConsole
 {
@@ -10,6 +7,8 @@ namespace HelloWorldConsole
     {
         static void Main(string[] args)
         {
+           Console.WriteLine("Hello World");
+           Debug.WriteLine("Debug Mode is On!");
         }
     }
 }
